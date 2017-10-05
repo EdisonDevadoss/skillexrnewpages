@@ -1,0 +1,161 @@
+<ion-header>
+  <ion-navbar class="SS-Header_orangeBG">
+    <ion-title>
+      <img src="assets/img/Header-logo.png">
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="SS-ion_cont">
+  <ion-list class="SS-ion_list">
+    <form (ngSubmit)="search()">
+      <ion-item class="SS-ion_InputItem">
+        <ion-label><ion-icon name="ios-home-outline" item-right></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Service / Name" [(ngModel)]="serviceName" name="Service / Name"></ion-input>
+      </ion-item>
+      <ion-item class="SS-ion_InputItem">
+        <ion-label><ion-icon name="ios-navigate-outline" item-right></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Location" [(ngModel)]="location" name="Location"></ion-input>
+      </ion-item>
+      <button ion-button class="SS-ButtonTheme" block>
+        <p>Search</p>
+        <ion-icon name="ios-arrow-round-forward" item-end></ion-icon>
+      </button>
+    </form>  
+    <div class="twoButton">
+      <button ion-button color="button" class="buttonOne" (click)="goToSignin()">
+        Sign in
+      </button>
+      <button ion-button color="button" class="buttonTwo" (click)="goToSignUp()">
+        Sign up for free
+      </button>
+    </div>
+  </ion-list>
+  <ion-list class="sugestedBadgeContainer">
+    <ion-label color="button" class="badgeText">
+        Suggested Badges
+    </ion-label>
+      <ion-scroll scrollX>
+          <ion-row class="scrollContent">
+            <ion-col>
+              <div class="scrollBox">
+                <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                <div class="badgeInside">
+                  <ion-label color="button" style="font-weight:bold;">Xcsisuss</ion-label>
+                  <ion-label>Freelancer</ion-label>
+                  <ion-label>
+                    <ion-badge class="badge">copywriting</ion-badge>+3
+                  </ion-label>
+                </div>
+                <div class="badgeLast">  
+                  <hr style="color:black; width:30px; height:2px;">
+                  <ion-label>Chennai</ion-label>
+                </div>
+              </div>
+            </ion-col> 
+            <ion-col>
+              <div class="scrollBox">
+                <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                <div class="badgeInside">
+                  <ion-label color="button" style="font-weight:bold;">Prrevdsc</ion-label>
+                  <ion-label>Freelancer</ion-label>
+                  <ion-label>
+                    <ion-badge class="badge">copywriting</ion-badge>+3
+                  </ion-label>
+                </div>
+                <div class="badgeLast">  
+                  <hr style="color:black; width:30px; height:2px;">
+                  <ion-label>Hyderabad</ion-label>
+                </div>
+              </div>
+            </ion-col> 
+          </ion-row>
+          <ion-row class="scrollContent">
+            <ion-col>
+              <div class="scrollBox">
+                <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                <div class="badgeInside">
+                  <ion-label color="button" style="font-weight:bold;">Bbydda</ion-label>
+                  <ion-label>Company</ion-label>
+                  <ion-label>
+                    <ion-badge class="badge">copywriting</ion-badge>+3
+                  </ion-label>
+                </div>
+                <div class="badgeLast">  
+                  <hr style="color:black; width:30px; height:2px;">
+                  <ion-label>Mumbai</ion-label>
+                </div>
+              </div>
+            </ion-col> 
+            <ion-col>
+              <div class="scrollBox">
+                <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                <div class="badgeInside">
+                  <ion-label color="button" style="font-weight:bold;">Xcsisuss</ion-label>
+                  <ion-label>Freelancer</ion-label>
+                  <ion-label>
+                    <ion-badge class="badge">copywriting</ion-badge>+3
+                  </ion-label>
+                </div>
+                <div class="badgeLast">  
+                  <hr style="color:black; width:30px; height:2px;">
+                  <ion-label>Chennai</ion-label>
+                </div>
+              </div>
+            </ion-col>  
+          </ion-row>
+          <ion-row class="scrollContent">
+            <ion-col>
+                <div class="scrollBox">
+                  <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                  <div class="badgeInside">
+                    <ion-label color="button" style="font-weight:bold;">Prrevdsc</ion-label>
+                    <ion-label>FreeLancer</ion-label>
+                    <ion-label>
+                      <ion-badge class="badge">copywriting</ion-badge>+3
+                    </ion-label>
+                  </div>
+                  <div class="badgeLast">  
+                    <hr style="color:black; width:30px; height:2px;">
+                    <ion-label>Hyderabad</ion-label>
+                  </div>
+                </div>
+              </ion-col> 
+              <ion-col>
+                <div class="scrollBox">
+                  <img src="../www/assets/img/images.png" class="scrollImg" alt="">
+                  <div class="badgeInside">
+                    <ion-label color="button" style="font-weight:bold;">Bbydda</ion-label>
+                    <ion-label>Company</ion-label>
+                    <ion-label>
+                      <ion-badge class="badge">copywriting</ion-badge>+3
+                    </ion-label>
+                  </div>
+                  <div class="badgeLast">  
+                    <hr style="color:black; width:30px; height:2px;">
+                    <ion-label>Mumbai</ion-label>
+                  </div>
+                </div>
+              </ion-col> 
+          </ion-row>
+          <ion-row class="scrollContent">
+            <ion-col>
+              <div class="moreBadge">
+                  <i class="fa fa-angle-double-right scrollRightIcon" aria-hidden="true"></i> 
+                  <h3 class="showMore">
+                    Show <br>
+                    more
+                  </h3>                       
+              </div>
+            </ion-col>
+          </ion-row>
+      </ion-scroll>
+    <ion-list class="version">
+        <ion-label>
+            Version
+          </ion-label>
+          <ion-label>
+            0.0.71
+          </ion-label>  
+    </ion-list>  
+  </ion-list>  
+</ion-content>
