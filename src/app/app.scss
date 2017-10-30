@@ -9,6 +9,22 @@
     background: #d05121;
     border-bottom: 3px solid #25394d;
 }
+// .SS-Header_orangeBG img {
+//     width: 30%;
+//     margin-top: 5px;
+// }
+.SS-side-menu {
+    background: #25394d;
+    color: #fff;
+    height: 55px;
+    width: 60px;
+    float: right;
+    padding: 8px 18px;
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 .SS-ion_cont{
     background:#d7d7d7;	
 }
@@ -86,3 +102,23 @@
     font-weight: 400;
     color:#25394d;
 }
+
+//Edison's css
+
+// .toolbar-title-md{
+//     color: #ffffff;
+//     font-size: 18px;
+//     overflow: initial;
+//     //text-align: center;
+// }
+// .SS-ButtonTheme ion-icon{
+//     font-size: 25px;
+//     margin-left: 200px;      
+// }
+// .button-inner{
+//     justify-content: initial;
+//     margin-left: 12px;
+// }
+// ion-header ion-icon.back-button-icon.icon {
+//     color: map-get($colors, light);
+// }

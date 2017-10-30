@@ -1,0 +1,21 @@
+page-skillexr-change-verification-email1 {
+    //Edison's css
+
+    .toolbar-title-md{
+        color: #ffffff;
+        font-size: 18px;
+        overflow: initial;
+        //text-align: center;
+    }
+    .SS-ButtonTheme ion-icon{
+        font-size: 25px;
+        margin-left: 200px;      
+    }
+    .button-inner{
+        justify-content: initial;
+        margin-left: 12px;
+    }
+    ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, light);
+    }
+}

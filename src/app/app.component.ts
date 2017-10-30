@@ -9,8 +9,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 })
 export class MyApp {
   
-  //rootPage:string = 'SkillexrSignupPage';
+  //rootPage:string = 'SkillexrNotificationPage';
   rootPage:string = 'SkillexrIndexPage';
+  //rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

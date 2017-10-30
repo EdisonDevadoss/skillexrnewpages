@@ -1,0 +1,21 @@
+<ion-header>
+    
+  <ion-navbar class="SS-Header_orangeBG">
+    <ion-title (click)="goToNext()">BLOCK/REPORT</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="SS-ion_cont">
+  <ion-list class="SS-ion_list" (click)="goToNext()">
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Block" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Report" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>

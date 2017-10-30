@@ -1,0 +1,26 @@
+page-skillexr-createbadge1 {
+    //Create a Badge page
+    ion-title{
+        text-align: center;
+    }
+    .previous{
+        text-transform: lowercase;
+        font-size: 12px;
+    }
+    .next{
+        text-transform: lowercase;
+        font-size: 12px;
+    }
+    .level{
+        display: inline-block;
+        font-size: 50px;
+        //position: relative;
+        //bottom: 2px;
+        opacity: 0.5;
+        color: #ffffff;
+        margin-right: 20px;
+    }
+    .level1{
+        opacity: 1;
+    }
+}

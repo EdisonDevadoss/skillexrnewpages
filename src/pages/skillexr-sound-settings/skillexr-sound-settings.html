@@ -1,0 +1,21 @@
+<ion-header>
+    
+  <ion-navbar class="SS-Header_orangeBG">
+    <ion-title (click)="goToNext()">SOUND SETTINGS</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="SS-ion_cont">
+  <ion-list class="SS-ion_list">
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="ios-checkmark-circle-outline" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Refresh" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="ios-checkmark-circle-outline" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Notification" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>

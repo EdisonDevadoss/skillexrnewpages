@@ -1,0 +1,47 @@
+page-side-menu-cont {
+	.toolbar-background-md {
+	    border-color: transparent; 
+	    background: transparent;
+	}
+	.header-md::after{
+		background-image:none;
+	}
+	.DarkThemeBlue_transparent {
+    	background: #25394d;
+	}
+	.SS-side-menu {
+		color: #fff;
+		float: right;
+		padding:16px;
+		font-size: 26px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.SS-ion_cont .item-md {
+	    background-color: transparent;
+	    border-color: transparent;
+	    text-align: center;
+	    color: #fff;
+	}
+	.SS-ion_cont .list-md .item-block .item-inner {
+	    border-bottom: none !important;
+	}
+	.SS-ion_cont .item-md.item-block .item-inner{
+		border-bottom: none !important;
+	}
+	.SS-ion_cont .item-md ion-avatar img{
+		margin:auto;
+		width: 80px;
+    	height: 80px;
+    	margin-bottom:16px;
+	}
+	p.SS-Profile_name {
+	    background: #d05121;
+	    padding: 3px;
+	    border-radius: 50px;
+	    width: 18%;
+	    margin: auto;
+	    color: #fff;
+	}
+}

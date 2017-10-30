@@ -19,6 +19,8 @@ export class SkillexrSignupPage {
   constructor(public navCtrl: NavController, public navParams: NavParams, private loadingCtrl: LoadingController) {
   }
   signUp(){
+    
+    if(!this.signOutVerifiCode){
     const load = this.loadingCtrl.create({
       content: 'Verification code has been send',
       duration: 5000,
@@ -28,6 +30,7 @@ export class SkillexrSignupPage {
     setTimeout(()=>{
     this.signOutVerifiCode = true;
     }, 5000)
+    }
   }
 
   ionViewDidLoad() {

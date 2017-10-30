@@ -1,0 +1,33 @@
+<ion-header>
+    
+  <ion-navbar class="SS-Header_orangeBG">
+    <ion-title (click)="goToNext1()">BLOCK/REPORT</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="SS-ion_cont">
+  <ion-list class="SS-ion_list" (click)="goToNext()">
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Annoying" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Fake Badge" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Poor Service" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Improper Rating" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+    <ion-item class="SS-ion_InputItem">
+      <ion-label><ion-icon name="" item-right></ion-icon></ion-label>
+      <ion-input type="text" placeholder="Improper content" [readonly]="isReadonly"></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>
