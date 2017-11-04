@@ -23,4 +23,34 @@ page-skillexr-createbadge1 {
     .level1{
         opacity: 1;
     }
+
+    .selectBox1{
+        width: 100%;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 2px;
+        background-color: #dedede;
+        margin-bottom: 10px;
+    }
+    .selectBox{
+        width: 100%;
+        padding: 2px 10px;
+        border: none;
+        border-radius: 2px;
+        background-color: #dedede;
+        margin-bottom: 10px;
+    }
+    .selectBox:active{
+        background-color: #036610;
+    }
+    .roleIcon{
+        margin-left: 10px;
+    }
+    .icon{
+        margin-left: 5px;
+    }
+    .message{
+        color: #25394d;
+        margin-bottom: 10px;
+    }
 }

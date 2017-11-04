@@ -31,6 +31,9 @@ export class SkillexrSignupPage {
     this.signOutVerifiCode = true;
     }, 5000)
     }
+    else{
+      this.navCtrl.push('SkillexrCreatebadge1Page');
+    }
   }
 
   ionViewDidLoad() {

@@ -9,7 +9,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 })
 export class MyApp {
   
-  //rootPage:string = 'SkillexrNotificationPage';
+  // rootPage:string = 'SkillexrCreatebadge1Page';
   rootPage:string = 'SkillexrIndexPage';
   //rootPage:any = HomePage;
 

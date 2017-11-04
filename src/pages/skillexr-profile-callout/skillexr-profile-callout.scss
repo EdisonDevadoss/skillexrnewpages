@@ -1,0 +1,49 @@
+page-skillexr-profile-callout {
+    .toolbar-title-md{
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .SS-ButtonTheme ion-icon{
+        font-size: 25px;
+        margin-left: 200px;      
+    }
+    .button-inner{
+        justify-content: initial;
+        margin-left: 12px;
+    }
+    ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, light);
+    }
+    .SS-ion-item {
+	    height: 150px;
+	}
+	.SS-ion-item ion-avatar img {
+	    height: 80px;
+	    width: 80px;
+	}
+	.SS-inner-cont h2 {
+	    font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+	}
+	.SS-inner-cont h3 {
+	    font-size: 16px;
+	    margin: 0 0 10px 0;
+	    font-weight: 700;
+	}
+	p.SS-cat_name {
+	    background: #d05121;
+	    padding: 3px 10px;
+	    border-radius: 50px;
+	    width: 200px;
+	    font-weight:700;
+        color: #fff;
+        margin-bottom: 10px;
+	}
+	.SS-float-item {
+	    float: right;
+	    border: 1px solid #000;
+	    padding: 13px 10px;
+	    border-radius: 50%;
+	}
+}

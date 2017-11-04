@@ -1,0 +1,63 @@
+page-skillexr-profile-edit {
+    .toolbar-background-md {
+	    border-color: transparent; 
+	    background: transparent;
+	}
+	.header-md::after{
+		background-image:none;
+	}
+	.SS-Header_orangeBG{
+		background: #d05121;
+		height:150px;
+	}
+	.SS-Header_orangeBG p {
+	    color: #fff;
+	    font-size: 16px;
+	    text-align: center;
+	}
+	.SS-ion_cont{
+		background:#d7d7d7;	
+	}
+	.SS-ion-item {
+	    background-color: transparent;
+	    box-shadow: none;
+	}
+	.SS-ion-item .item-inner {
+	    border: none !important;
+	}
+	.SS-ion-item.item-md ion-avatar img {
+	    margin: auto;
+	    width: 70px;
+	    height: 70px;
+	}
+	.SS-ion_cont h3 {
+	    text-align: center;
+	    color: #25394d;
+	    font-size: 14px;
+	    margin: 5px;
+   		text-decoration: underline;
+	}
+	.SS-ion_cont p {
+	    text-align: center;
+	    color: #25394d;
+	    font-size: 15px;
+	    margin-top: 15px;
+	    font-weight: 700;
+	}
+	.SS-segment{
+		background: #25394d;
+    	margin-top: 15px !important;
+	}
+	.SS-ion_cont .toolbar-md {
+	    padding: 0px !important;
+	}
+	.SS-segment ion-segment-button.segment-button {
+	    color: #fff;
+	    font-size: 16px;
+	    margin-top: 13px;
+	    height: 45px;
+		}
+	.SS-segment.segment-md .segment-button.segment-activated {
+	    border-bottom: 5px solid #d05121 !important;
+	}
+}

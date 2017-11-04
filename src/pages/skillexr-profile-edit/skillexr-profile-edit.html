@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar hideBackButton class="SS-Header_orangeBG">
+    <ion-title (click)="goToNext()">
+    	<p>BADGE</p>
+    </ion-title>
+    <ion-item class="SS-ion-item">
+	    <ion-avatar>
+	      <img src="assets/img/profile-pic.jpg">
+	    </ion-avatar>
+  	</ion-item>
+  </ion-navbar>
+</ion-header>
+<ion-content class="SS-ion_cont">
+	<div>
+		<p>Shyam Sundar</p>
+		<h3>List of Skills</h3>
+		<h3>Contact Number</h3>
+		<h3> <ion-icon ios="ios-navigate" md="md-navigate"></ion-icon> Location</h3>
+	</div>
+	<ion-toolbar no-border-top >
+    <ion-segment class="SS-segment">
+      <ion-segment-button value="about">
+        ABOUT
+      </ion-segment-button>
+      <ion-segment-button value="reviews">
+        REVIEWS
+      </ion-segment-button>
+      <ion-segment-button value="showoff">
+        SHOW OFF
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-content>
+
+
