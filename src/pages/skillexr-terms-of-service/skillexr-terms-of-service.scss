@@ -1,0 +1,34 @@
+page-skillexr-terms-of-service {
+     //Edison 
+     .toolbar-title-md{
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .SS-ButtonTheme ion-icon{
+        font-size: 25px;
+        margin-left: 200px;      
+    }
+    .button-inner{
+        justify-content: initial;
+        margin-left: 12px;
+    }
+    ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, light);
+    }
+
+    .SS-ion_list h3{
+        font-weight: bold;
+        color:#25394d; 
+    }
+    .SS-ion_list h6{
+        font-weight: bold;
+        color:#25394d; 
+    }
+    .SS-ion_list p{
+        color:#25394d; 
+        text-align: justify;
+    }
+    .SS-ion_list p span{
+        font-weight: bold;
+    }
+}

@@ -36,10 +36,12 @@
 					</ion-col>
 					<ion-col col-2 push-1>
 						<ion-label [hidden]="labelIcon">
-							<i class="fa fa-angle-down" style="zoom: 1.5" aria-hidden="true"></i>
+								<ion-icon name="ios-arrow-up-outline"></ion-icon>
+							<!-- <i class="fa fa-angle-down" style="zoom: 1.5" aria-hidden="true"></i> -->
 						</ion-label>
 						<ion-label [hidden]="!labelIcon">
-								<i class="fa fa-angle-up" style="zoom: 1.5" aria-hidden="true"></i>
+								<ion-icon name="ios-arrow-down-outline"></ion-icon>
+								<!-- <i class="fa fa-angle-up" style="zoom: 1.5" aria-hidden="true"></i> -->
 						</ion-label>  
 					</ion-col>
 				</ion-row>
@@ -51,7 +53,8 @@
 				<ion-row (click)="selectOne(role)">
 					<ion-col col-2>
 						<!-- <i  class="fa fa-users icons roleIcon" aria-hidden="true"></i>  -->
-						<i [ngClass]="role.icon" class="icons roleIcon" aria-hidden="true"></i> 
+						<!-- <i [ngClass]="role.icon" class="icons roleIcon" aria-hidden="true"></i>  -->
+						<ion-icon name="{{role.icon}}" class="icons roleIcon"></ion-icon>
 					</ion-col>
 					<ion-col col-10 push-1>
 						<ion-label>{{role.role}}</ion-label>
@@ -65,10 +68,11 @@
 				<ion-grid no-padding>
 					<ion-row (click)="selectYourRoleAgain()">
 						<ion-col col-2 class="labelStyle">
-							<i [ngClass]="item.icon" class="icons icon" aria-hidden="true"></i> 
+							<!-- <i [ngClass]="item.icon" class="icons icon" aria-hidden="true"></i>  -->
+							<ion-icon name="{{item.icon}}" class="icons icon"></ion-icon>
 						</ion-col>
 						<ion-col col-10 pull>
-							<ion-input type="text" [(ngModel)]="item.role"></ion-input>
+							<ion-input type="text" [(ngModel)]="item.role" [readonly]="isReadonly"></ion-input>
 						</ion-col>
 						<!-- <ion-col col-10 push-1>
 							<ion-label>{{item.role}}</ion-label>
@@ -80,7 +84,8 @@
 				<ion-grid no-padding>
 					<ion-row>
 						<ion-col col-2 class="labelStyle">
-							<i class="fa fa-user icons icon" aria-hidden="true"></i> 
+							<!-- <i class="fa fa-user icons icon" aria-hidden="true"></i>  -->
+							<ion-icon name="ios-person-outline" class="icons icon"></ion-icon>
 						</ion-col>
 						<ion-col col-10 pull>
 							<ion-input type="text" placeholder="First Name"></ion-input>
@@ -92,7 +97,8 @@
 				<ion-grid no-padding>
 					<ion-row>
 						<ion-col col-2 class="labelStyle">
-							<i class="fa fa-user icons icon" aria-hidden="true"></i> 
+							<!-- <i class="fa fa-user icons icon" aria-hidden="true"></i>  -->
+							<ion-icon name="ios-person-outline" class="icons icon"></ion-icon>
 						</ion-col>
 						<ion-col col-10 pull>
 							<ion-input type="text" placeholder="Last Name"></ion-input>
@@ -104,7 +110,8 @@
 				<ion-grid no-padding>
 					<ion-row>
 						<ion-col col-2 class="labelStyle">
-							<i class="fa fa-clock-o icons icon" aria-hidden="true"></i> 
+							<!-- <i class="fa fa-clock-o icons icon" aria-hidden="true"></i>  -->
+							<ion-icon name="ios-time-outline" class="icons icon"></ion-icon>
 						</ion-col>
 						<ion-col col-10 pull>
 							<ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="myDate" placeholder="Birthday (confidential)"></ion-datetime>
@@ -116,7 +123,8 @@
 				<ion-grid no-padding>
 					<ion-row>
 						<ion-col col-2 class="labelStyle">
-							<i class="fa fa-venus-mars icons icon" aria-hidden="true"></i> 
+							<!-- <i class="fa fa-venus-mars icons icon" aria-hidden="true"></i>  -->
+							<ion-icon name="ios-transgender-outline" class="icons icon"></ion-icon>
 						</ion-col>
 						<ion-col col-10 pull>
 							<ion-select [(ngModel)]="gender" placeholder="Gender">
@@ -132,10 +140,11 @@
 				<ion-grid no-padding>
 					<ion-row>
 						<ion-col col-2 class="labelStyle">
-							<i class="fa fa-phone icons icon" aria-hidden="true"></i> 
+							<!-- <i class="fa fa-phone icons icon" aria-hidden="true"></i>  -->
+							<ion-icon name="ios-call-outline" class="icons icon"></ion-icon>
 						</ion-col>
 						<ion-col col-10 pull>
-							<ion-input type="text" placeholder="Contact Number (Optional)"></ion-input>
+							<ion-input type="number" placeholder="Contact Number (Optional)"></ion-input>
 						</ion-col>
 					</ion-row>
 				</ion-grid>       
@@ -147,9 +156,13 @@
 				through Skillexr messages you can ignore this field.
 			</p>
 
-			<button ion-button block color="button" class="myButton" (click)="next()">
+			<!-- <button ion-button block color="button" class="myButton" (click)="next()">
 					<span class="buttonText"> Next </span>
 					<i class="fa fa-arrow-right buttonIcon"  aria-hidden="true"></i>            
+			</button> -->
+			<button ion-button class="SS-ButtonTheme" block (click)="next()">
+				<p>Next</p>
+				<ion-icon name="ios-arrow-round-forward" item-end></ion-icon> 
 			</button>
 		</div>
 	</ion-list>	

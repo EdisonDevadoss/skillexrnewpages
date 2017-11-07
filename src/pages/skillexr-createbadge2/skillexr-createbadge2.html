@@ -1,0 +1,56 @@
+<ion-header no-border>
+    
+  <ion-navbar hideBackButton color="headerColor">
+    <ion-buttons left>
+      <button ion-button icon-only class="previous" (click)="backButtonClick()">
+        <ion-icon name="arrow-round-back" style="zoom: 0.7"></ion-icon>
+        prev
+      </button>
+    </ion-buttons>
+    <ion-title>CREATE A BADGE</ion-title>
+    <!-- <ion-buttons end>
+      <button ion-button icon-only class="next" (click)="nextButtonClick()">
+          next
+        <ion-icon name="arrow-round-forward" style="zoom: 0.7"></ion-icon> 
+      </button>
+    </ion-buttons> -->
+  </ion-navbar>
+
+  <ion-toolbar no-padding color="button">
+    <ion-title no-margin>
+        <ion-label no-margin class="level">
+          1
+        </ion-label>
+        <ion-label no-margin class="level level1">
+          2
+        </ion-label>
+    </ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content class="SS-ion_cont">
+  <ion-list class="SS-ion_list">
+    <form (ngSubmit)="createBadge2()">
+      <ion-item class="SS-ion_InputItem">
+        <ion-label><ion-icon name="ios-pin-outline" item-right></ion-icon></ion-label>
+        <ion-input type="text" placeholder="City" [(ngModel)]="city" name="email"></ion-input>
+      </ion-item>
+      <ion-item class="SS-ion_InputItem">
+        <ion-label><ion-icon name="ios-call-outline" item-right></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Mobile number for verification" [(ngModel)]="numbers" name="email"></ion-input>
+      </ion-item>
+      <ion-item class="SS-ion_InputItem" *ngIf="verifiCode">
+          <ion-label><ion-icon name="ios-medical-outline" item-right></ion-icon></ion-label>
+          <ion-input type="text" placeholder="Verification Code" [(ngModel)]="vCode" name="verifaicaion"></ion-input>
+      </ion-item>
+      <button ion-button class="SS-ButtonTheme" block>
+        <p *ngIf="!verifiCode">Next</p>
+        <P *ngIf="verifiCode">Sing Up</P>
+        <ion-icon name="ios-arrow-round-forward" item-end></ion-icon>
+      </button>
+    </form>
+    <p class="signupText" *ngIf="verifiCode">By signing up, you agree to the <span>Terms of Service</span> and <span> Privacy Policy</span></p>
+  </ion-list>
+</ion-content>

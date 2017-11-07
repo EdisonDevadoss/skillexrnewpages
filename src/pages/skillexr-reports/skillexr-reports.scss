@@ -1,0 +1,49 @@
+page-skillexr-reports {
+    .toolbar-background-md {
+	    border-color: transparent; 
+	    background: transparent;
+	}
+	.header-md::after{
+		background-image:none;
+	}
+	.SS-Header_orangeBG{
+		background: #d05121;
+    	border-bottom: 3px solid #25394d;
+	}
+	.SS-Header_orangeBG p {
+	    color: #fff;
+	    font-weight: 700;
+	    margin-left: 35px;
+	}
+	.SS-ion_cont{
+		background:#d7d7d7;	
+	}
+	.SS-Inner-cont {
+	    padding: 30px;
+	}
+	.SS-side-menu {
+		background: #d05121;
+		color: #fff;
+		height: 55px;
+		width: 60px;
+		float: left;
+		padding: 20px;
+		font-size: 20px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	button.SS-cus-button {
+	    height: 50px;
+	    margin-bottom: 15px;
+	    border-radius: 0px;
+	    box-shadow: none;
+	    background: #dedede;
+	    color: #000;
+	}
+	.SS-cus-button ion-icon {
+	    position: absolute;
+	    left: 0;
+	    margin: 0 20px;
+	}
+}

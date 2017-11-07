@@ -1,0 +1,44 @@
+page-skillexr-faq {
+    .toolbar-background-md {
+	    border-color: transparent; 
+	    background: transparent;
+	}
+	.header-md::after{
+		background-image:none;
+	}
+	.SS-Header_orangeBG{
+		background: #d05121;
+    	border-bottom: 3px solid #25394d;
+	}
+	.SS-Header_orangeBG p {
+	    color: #fff;
+	    font-weight: 700;
+		margin-left: 35px;
+	}
+	.SS-ion_cont{
+		background:#d7d7d7;	
+	}
+	.SS-side-menu {
+		background: #d05121;
+		color: #fff;
+		height: 55px;
+		width: 60px;
+		float: left;
+		padding: 20px;
+		font-size: 20px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.SS-ion-cont_img img {
+	    width: 38%;
+	    padding: 20px;
+	}
+	.SS-ion-cont_img {
+	    background: #d05121;
+	}
+	.card-md h2 {
+	    font-size: 22px;
+	    font-weight: 700;
+	}
+}

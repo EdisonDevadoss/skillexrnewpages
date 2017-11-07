@@ -14,17 +14,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'skillexr-createbadge1.html',
 })
 export class SkillexrCreatebadge1Page {
+  isReadonly: boolean;
   labelIcon: boolean = false;
   getdetail: boolean = false;
   roles:any = [{}];
   getitem:any = [{}];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.isReadonly = true;
     //this.roles = ['Personal', 'Freelancer', 'Company']
     this.roles = [
-      {role: 'Personal', icon: 'fa fa-users'},
-      {role: 'Freelancer', icon: 'fa fa-user'},
-      {role: 'Company', icon: 'fa fa-building'}
+      {role: 'Personal', icon: 'ios-person-outline'},
+      {role: 'Freelancer', icon: 'ios-people-outline'},
+      {role: 'Company', icon: 'ios-home-outline'}
     ]
   }
   selectYourRole(){

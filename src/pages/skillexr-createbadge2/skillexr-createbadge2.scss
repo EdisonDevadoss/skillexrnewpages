@@ -1,6 +1,6 @@
-page-skillexr-createbadge1 {
-    //Create a Badge page
-    ion-title{
+page-skillexr-createbadge2 {
+      //Create a Badge page
+      ion-title{
         text-align: center;
     }
     .previous{
@@ -70,5 +70,13 @@ page-skillexr-createbadge1 {
     .button-inner{
         justify-content: initial;
         margin-left: 12px;
+    }
+    .signupText{
+        font-size: 14px;
+        color: #25394d;
+    }
+    .signupText span{
+        color: #d05121;
+        text-decoration: underline;
     }
 }

@@ -1,0 +1,63 @@
+page-skillexr-privacy-policy {
+    // .toolbar-background-md {
+	//     border-color: transparent; 
+	//     background: transparent;
+	// }
+	// .header-md::after{
+	// 	background-image:none;
+	// }
+	// .SS-Header_orangeBG{
+	// 	background: #d05121;
+    // 	border-bottom: 3px solid #25394d;
+	// }
+	// .SS-Header_orangeBG p {
+	//     color: #fff;
+	//     font-weight: 700;
+	// 	margin-left: 35px;
+	// }
+	// .SS-ion_cont{
+	// 	background:#d7d7d7;	
+	// }
+	// .SS-side-menu {
+	// 	background: #d05121;
+	// 	color: #fff;
+	// 	height: 55px;
+	// 	width: 60px;
+	// 	float: left;
+	// 	padding: 20px;
+	// 	font-size: 20px;
+	// 	position: absolute;
+	// 	top: 0px;
+	// 	left: 0px;
+	// }
+    
+    //Edison 
+    .toolbar-title-md{
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .SS-ButtonTheme ion-icon{
+        font-size: 25px;
+        margin-left: 200px;      
+    }
+    .button-inner{
+        justify-content: initial;
+        margin-left: 12px;
+    }
+    ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, light);
+    }
+
+    .SS-ion_list h3{
+        font-weight: bold;
+        color:#25394d; 
+    }
+    .SS-ion_list h6{
+        font-weight: bold;
+        color:#25394d; 
+    }
+    .SS-ion_list p{
+        font-weight: bold;
+        color:#25394d; 
+    }
+}
