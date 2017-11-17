@@ -20,7 +20,15 @@ export class SkillexrProfileEditPage {
   goToNext(){
     this.navCtrl.push('SkillexrProfileCalloutPage');
   }
-
+  goToBlockPage(){
+    this.navCtrl.push('SkillexrBlockReportPage');
+  }
+  goToReachPage(){
+    this.navCtrl.push('SkillexrReachPage')
+  }
+  goToMobileVerification(){
+    this.navCtrl.push('SkillexrMobileNoVerificationPage');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrProfileEditPage');
   }

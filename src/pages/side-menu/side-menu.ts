@@ -23,6 +23,9 @@ export class SideMenuPage {
   goToSideMenuCont(){
     this.navCtrl.push('SideMenuContPage');
   }
+  skillexrProfilePage(){
+    this.navCtrl.push('SkillexrProfileListPage');
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SideMenuPage');

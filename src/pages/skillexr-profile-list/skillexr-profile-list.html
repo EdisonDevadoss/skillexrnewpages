@@ -3,11 +3,11 @@
     <ion-title (click)="goToNext()">
       <p>RESULTS</p>
     </ion-title>
-    <div class="SS-side-menu"><ion-icon name="ios-options"></ion-icon></div>
+    <div class="SS-side-menu" (click)="goToFilrerPage()"><ion-icon name="ios-options"></ion-icon></div>
   </ion-navbar>
 </ion-header>
 <ion-content class="SS-ion_cont">
-  <ion-item class="SS-ion-item">
+  <ion-item class="SS-ion-item" (click)="goToProfileEditPage()">
     <ion-avatar item-start>
         <img src="assets/img/profile-pic.jpg">
     </ion-avatar>

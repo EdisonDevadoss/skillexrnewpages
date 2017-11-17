@@ -31,7 +31,7 @@ export class SkillexrCreatebadge2Page {
     }, 5000)
     }
     else{
-     // this.navCtrl.push('SkillexrCreatebadge1Page');
+     this.navCtrl.push('SideMenuPage');
     }
   }
   backButtonClick(){

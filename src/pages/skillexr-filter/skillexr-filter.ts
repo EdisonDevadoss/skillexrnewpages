@@ -20,6 +20,9 @@ export class SkillexrFilterPage {
   goToNext(){
     this.navCtrl.push('SkillexrCalloutPage');
   }
+  goToFilterPage(){
+    this.navCtrl.push('SkillexrProfileListPage');
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrFilterPage');

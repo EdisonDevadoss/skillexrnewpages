@@ -20,6 +20,28 @@ export class SideMenuContPage {
   goToNext(){
     this.navCtrl.pop();
   }
+  goToCallOutPage(){
+    this.navCtrl.push('SkillexrCalloutPage');
+  }
+  goToCallNotificationPage(){
+    this.navCtrl.push('SkillexrNotificationPage');
+  }
+  goToCallReachPage(){
+    this.navCtrl.push('SkillexrReachPage');
+  }
+  goToSettingsPage(){
+    this.navCtrl.push('SkillexrSettingsPage');
+  }
+  goToReportIssues(){
+    this.navCtrl.push('SkillexrReportIssuesPage');
+  }
+  goToAboutUs(){
+    this.navCtrl.push('SkillexrAboutUsPage');
+  }
+
+  goToEditBadge(){
+    this.navCtrl.push('SkillexrEditBadge1Page');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SideMenuContPage');
   }

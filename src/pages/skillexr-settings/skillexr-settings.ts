@@ -17,8 +17,11 @@ export class SkillexrSettingsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  accountSettings(){
+    this.navCtrl.push('SkillexrAccountSettingsPage');
+  }
   blockListPage(){
-    this.navCtrl.push('SkillexrReportsPage');
+    this.navCtrl.push('SkillexrBlockedListPage');
   }
   faqPage(){
     this.navCtrl.push('SkillexrFaqPage');
@@ -28,6 +31,12 @@ export class SkillexrSettingsPage {
   }
   gotoPrivacyPolicy(){
     this.navCtrl.push('SkillexrPrivacyPolicyPage');
+  }
+  soundSetting(){
+    this.navCtrl.push('SkillexrSoundSettingsPage');
+  }
+  goToContactPage(){
+    this.navCtrl.push('SkillexrContactUsPage');
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrSettingsPage');

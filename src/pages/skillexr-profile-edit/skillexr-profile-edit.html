@@ -15,14 +15,21 @@
 		<p>Shyam Sundar</p>
 		<h3>List of Skills</h3>
 		<h3>Contact Number</h3>
-		<h3> <ion-icon ios="ios-navigate" md="md-navigate"></ion-icon> Location</h3>
+    <h3> <ion-icon ios="ios-navigate" md="md-navigate"></ion-icon> Location</h3>
+    <h4>
+      <ion-icon name="ios-remove-circle-outline" (click)="goToBlockPage()"></ion-icon>
+      <ion-icon name="ios-heart-outline"></ion-icon>
+      <ion-icon name="ios-mail-outline"></ion-icon>
+      <ion-icon name="ios-call-outline"></ion-icon>
+      <ion-icon name="ios-git-merge-outline" (click)="goToReachPage()"></ion-icon>
+    </h4>
 	</div>
 	<ion-toolbar no-border-top >
     <ion-segment class="SS-segment">
       <ion-segment-button value="about">
         ABOUT
       </ion-segment-button>
-      <ion-segment-button value="reviews">
+      <ion-segment-button value="reviews" (click)="goToMobileVerification()">
         REVIEWS
       </ion-segment-button>
       <ion-segment-button value="showoff">

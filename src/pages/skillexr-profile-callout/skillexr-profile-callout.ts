@@ -17,6 +17,9 @@ export class SkillexrProfileCalloutPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  next(){
+    this.navCtrl.push('SkillexrSettingsPage');
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrProfileCalloutPage');

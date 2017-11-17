@@ -20,6 +20,9 @@ export class SkillexrCalloutPage {
   goToNext(){
     this.navCtrl.push('SkillexrListofSkillsPage');
   }
+  goToCreateACalloutPage(){
+    this.navCtrl.push('SkillexrCreateACalloutPage');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrCalloutPage');
   }

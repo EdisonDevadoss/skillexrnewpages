@@ -13,5 +13,11 @@ export class HomePage {
   goToNext(){
     this.navCtrl.push('SideMenuPage');
   }
+  goToMenuPage(){
+    this.navCtrl.push('SideMenuPage');
+  }
+  forgotPassword(){
+    this.navCtrl.push('SkillexrForgotpasswordPage');
+  }
 
 }

@@ -16,7 +16,7 @@
         <ion-label><ion-icon name="ios-navigate-outline" item-right></ion-icon></ion-label>
         <ion-input type="text" placeholder="Location" [(ngModel)]="location" name="Location"></ion-input>
       </ion-item>
-      <button ion-button class="SS-ButtonTheme" block>
+      <button ion-button class="SS-ButtonTheme" block (click)="goToResultPage()">
         <p>Search</p>
         <ion-icon name="ios-arrow-round-forward" item-end></ion-icon>
       </button>

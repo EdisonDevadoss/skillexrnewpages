@@ -60,4 +60,24 @@ page-skillexr-profile-edit {
 	.SS-segment.segment-md .segment-button.segment-activated {
 	    border-bottom: 5px solid #d05121 !important;
 	}
+
+	//Edison's
+	.SS-ion_cont h4 {
+	    text-align: center;
+	    color: #25394d;
+	    font-size: 15px;
+	    margin: 5px;
+	}
+	.SS-ion_cont h4 ion-icon{
+		width:30px;
+		height:30px;
+		line-height:30px;
+		//border: 2px solid #f5f5f5;
+		border-radius: 50%;
+		color:#f5f5f5;
+		// text-align:center;
+		text-decoration:none;
+		background: #25394d;
+		// box-shadow: 0 0 3px gray;
+	}
 }

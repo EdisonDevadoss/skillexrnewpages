@@ -17,7 +17,18 @@ export class SkillexrAccountSettingsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  goToChangePassword(){
+    this.navCtrl.push('SkillexrChangePasswordPage');
+  }
+  goToMobileVerification(){
+    this.navCtrl.push('SkillexrMobileNoVerificationPage');
+  }
+  goToEmailVerification(){
+    this.navCtrl.push('SkillexrChangeVerificationEmailPage');
+  }
+  goToDeactiveAccount(){
+    this.navCtrl.push('SkillexrDeactiveAccountPage');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrAccountSettingsPage');
   }

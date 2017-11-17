@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar class="SS-Header_orangeBG">
-    <ion-title (click)="goToNext()">FILTER</ion-title>
+    <ion-title>FILTER</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -17,7 +17,7 @@
 			<ion-label><ion-icon name="ios-pin-outline" item-right></ion-icon></ion-label>
 			<ion-input type="text" placeholder="Area"></ion-input>
 		</ion-item>
-		<button ion-button class="SS-ButtonTheme" block>
+		<button ion-button class="SS-ButtonTheme" block (click)="goToFilterPage()">
       <p>Done</p>
       <ion-icon name="ios-arrow-round-forward" item-end></ion-icon>
     </button>

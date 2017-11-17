@@ -4,22 +4,22 @@
   </ion-navbar>
 </ion-header>
 <ion-content class="SS-ion_cont DarkThemeBlue_transparent">
-	<ion-item>
+	<ion-item (click)="goToEditBadge()">
 	    <ion-avatar>
 	      <img src="img/marty-avatar.png">
 	    </ion-avatar>
 	    <p class="SS-Profile_name">shyam</p>
   	</ion-item>
     <ion-list>
-    	<button ion-item>Call Out</button>
-    	<button ion-item>Notification</button>
-    	<button ion-item>Reach</button>
+    	<button ion-item (click)="goToCallOutPage()">Call Out</button>
+    	<button ion-item (click)="goToCallNotificationPage()">Notification</button>
+    	<button ion-item (click)="goToCallReachPage()">Reach</button>
     	<button ion-item>Saved</button>
-    	<button ion-item>Settings</button>
+    	<button ion-item (click)="goToSettingsPage()">Settings</button>
     	<button ion-item>Log out</button>
   	</ion-list>
   	<ion-list>
-    	<button ion-item>Report Issues</button>
-    	<button ion-item>About</button>
+    	<button ion-item (click)="goToReportIssues()">Report Issues</button>
+    	<button ion-item (click)="goToAboutUs()">About</button>
   	</ion-list>
 </ion-content>

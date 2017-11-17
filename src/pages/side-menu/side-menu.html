@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar hideBackButton class="SS-Header_orangeBG">
-    <ion-title (click)="goToNext()">
+    <ion-title>
       <img src="assets/img/only-logo.png">
     </ion-title>
     <div class="SS-side-menu" (click)="goToSideMenuCont()"><ion-icon name="ios-more"></ion-icon></div>
@@ -8,10 +8,10 @@
   <ion-toolbar no-border-top >
     <ion-segment class="SS-segment">
       <ion-segment-button value="puppies">
-        Puppies
+        TRACK
       </ion-segment-button>
       <ion-segment-button value="kittens">
-        Kittens
+        FIND
       </ion-segment-button>
     </ion-segment>
   </ion-toolbar>
@@ -26,7 +26,7 @@
 			<ion-label><ion-icon name="ios-key-outline" item-right></ion-icon></ion-label>
 			<ion-input type="password" placeholder="All"></ion-input>
 		</ion-item>
-		<button ion-button class="SS-ButtonTheme" block>
+		<button ion-button class="SS-ButtonTheme" block (click)="skillexrProfilePage()">
 			<p>Search</p>
 		</button>
 	</ion-list>

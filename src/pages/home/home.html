@@ -15,7 +15,7 @@
 			<ion-label><ion-icon name="ios-key-outline" item-right></ion-icon></ion-label>
 			<ion-input type="password" placeholder="Password"></ion-input>
 		</ion-item>
-		<button ion-button class="SS-ButtonTheme" block>
+		<button ion-button class="SS-ButtonTheme" block (click)="goToMenuPage()">
 			<p>Sign In</p>
 <!-- 			<ion-icon name="ios-key-outline" item-end></ion-icon>
  -->		</button>
@@ -27,7 +27,7 @@
 		<ion-icon name="logo-facebook" item-right ion-button href="#"></ion-icon>
 		<ion-icon name="logo-google" item-right ion-button href="#"></ion-icon>
 		<ion-icon name="logo-twitter" item-right ion-button href="#"></ion-icon>
-		<p href="#">Forgot Password?</p>
+		<p (click)="forgotPassword()">Forgot Password?</p>
 		<h3 href="#">Report <span>Signin Problem</span></h3>
 	</div>
 </ion-content>

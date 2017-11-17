@@ -31,5 +31,8 @@ export class SkillexrIndexPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrIndexPage');
   }
+  goToResultPage(){
+    this.navCtrl.push('SkillexrProfileListPage');
+  }
 
 }
