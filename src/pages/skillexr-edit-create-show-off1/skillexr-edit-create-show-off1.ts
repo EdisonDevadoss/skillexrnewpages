@@ -17,10 +17,13 @@ export class SkillexrEditCreateShowOff1Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  goToEditCreateShowOff2(){
-    this.navCtrl.push('SkillexrEditCreateShowOff2Page');
+  // goToEditCreateShowOff2(){
+  //   this.navCtrl.push('SkillexrEditCreateShowOff2Page');
+  // }
+  goToEditAlbum(){
+    this.navCtrl.push('SkillexrEditAlbumPage');
   }
-
+  
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrEditCreateShowOff1Page');
   }

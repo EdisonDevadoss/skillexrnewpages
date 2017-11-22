@@ -25,18 +25,91 @@
     </h4> -->
 	</div>
 	<ion-toolbar no-border-top >
-    <ion-segment class="SS-segment">
-      <ion-segment-button value="about" (click)="goToAboutPage()">
+    <ion-segment [(ngModel)]="badge" class="SS-segment">
+      <ion-segment-button value="about">
         ABOUT
       </ion-segment-button>
       <ion-segment-button value="reviews">
         REVIEWS
       </ion-segment-button>
-      <ion-segment-button value="showoff" (click)="goToShowOff()">
+      <ion-segment-button value="showoff">
         SHOW OFF
       </ion-segment-button>
     </ion-segment>
   </ion-toolbar>
+
+  <div [ngSwitch]="badge">
+    <div class="SS-rating" padding  *ngSwitchCase="'about'">
+      <ion-toolbar class="SS-ion-footer">
+        <button ion-button block (click)="goToAboutPage()">About</button>
+      </ion-toolbar> 
+    </div> 
+    <div class="SS-rating" padding *ngSwitchCase="'reviews'">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-4><h3>N / A</h3></ion-col>
+          <ion-col col-8>
+            <p class="SS-para">
+              <span>
+                <ion-icon ios="ios-star" md="md-star"></ion-icon> 
+                <ion-icon ios="ios-star" md="md-star"></ion-icon> 
+                <ion-icon ios="ios-star" md="md-star"></ion-icon> 
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+              </span>
+            </p>
+            <p class="SS-para">
+              <span>
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>  
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>  
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>  
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+              </span>
+            </p>
+            <p class="SS-para">
+              <span>
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>  
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>  
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+              </span>
+            </p>
+            <p class="SS-para">
+              <span>
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+              </span>
+            </p>
+            <p class="SS-para">
+              <span>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+                <ion-icon ios="ios-star-outline" md="md-star-outline"></ion-icon>
+              </span>
+            </p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+        <ion-toolbar class="SS-ion-footer">
+          <button ion-button block>Rate this Badge</button>
+        </ion-toolbar>
+    </div>
+    <div class="SS-rating" padding *ngSwitchCase="'showoff'">
+      <ion-toolbar class="SS-ion-footer">
+          <button ion-button block (click)="goTocreagteShowOff1()">uploadImage</button>
+        </ion-toolbar> 
+        <ion-toolbar class="SS-ion-footer">
+            <button ion-button block (click)="goTocreateShowOff2()">typeurl</button>
+          </ion-toolbar> 
+    </div>
+  </div>
 </ion-content>
 
 

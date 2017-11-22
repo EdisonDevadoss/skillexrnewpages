@@ -33,10 +33,17 @@ export class SkillexrEditBadge1Page {
   goToAboutPage(){
     this.navCtrl.push('SkillexrAboutPage');
   }
-  goToShowOff(){
-    this.navCtrl.push('SkillexrEditShowOffPage');
-  }
+  // goToShowOff(){
+  //   this.navCtrl.push('SkillexrEditShowOffPage');
+  // }
 
+  //ShowOff
+  goTocreagteShowOff1(){
+    this.navCtrl.push('SkillexrEditCreateShowOff1Page');
+  }
+  goTocreateShowOff2(){
+    this.navCtrl.push('SkillexrEditCreateShowOff2Page');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrEditBadge1Page');
   }

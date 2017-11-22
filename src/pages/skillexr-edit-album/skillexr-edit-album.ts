@@ -17,6 +17,10 @@ export class SkillexrEditAlbumPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  goToEditShowOff(){
+    this.navCtrl.push('SkillexrEditShowOff1Page');
+  }
+  
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrEditAlbumPage');

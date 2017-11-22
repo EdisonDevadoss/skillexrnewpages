@@ -80,6 +80,41 @@ page-skillexr-edit-badge1 {
             background: #25394d;
             // box-shadow: 0 0 3px gray;
         }
+
+        .SS-rating h3 {
+            padding-top: 40px;
+            border-radius: 50%;
+            border: 3px solid #bfbfbf;
+            width: 100px;
+            height: 100px;
+            font-size: 18px;
+        }
+        footer-md::before{
+            background-image:none !important;
+        }
+        .SS-ion-footer {
+            padding: 10px 16px;
+        }
+        .SS-ion-footer button {
+            height: 50px;
+            border-radius: 0px;
+            background: #223242;
+            letter-spacing: 1px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        p.SS-para {
+           width: 100%; 
+           text-align: left; 
+           border-bottom: 1px solid #000; 
+           line-height: 0.1em;
+           margin: 10px 0 20px; 
+        } 
+    
+        p.SS-para span { 
+            background:#d7d7d7; 
+            padding:0 10px 0 15px; 
+        }
     }
     
 

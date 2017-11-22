@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the SkillexrEditCreateShowOff2Page page.
+ * Generated class for the SkillexrGoogleLocationPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,20 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-skillexr-edit-create-show-off2',
-  templateUrl: 'skillexr-edit-create-show-off2.html',
+  selector: 'page-skillexr-google-location',
+  templateUrl: 'skillexr-google-location.html',
 })
-export class SkillexrEditCreateShowOff2Page {
+export class SkillexrGoogleLocationPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  goToShowOff1(){
-    this.navCtrl.push('SkillexrEditShowOff1Page');
-  }
-  
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SkillexrEditCreateShowOff2Page');
+    console.log('ionViewDidLoad SkillexrGoogleLocationPage');
   }
 
 }

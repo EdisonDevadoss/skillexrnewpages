@@ -17,7 +17,7 @@ export class SkillexrCreateACalloutPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  goToNextPage(){
+  goToNext(){
     this.navCtrl.push('SkillexrCreateACallout1Page');
   }
 

@@ -21,6 +21,9 @@ export class SkillexrChangePasswordPage {
   goToNext(){
     this.navCtrl.push('SkillexrChangePassword1Page');
   }
+  goToForgotPassword(){
+    this.navCtrl.push('SkillexrForgotpasswordPage');
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrChangePasswordPage');

@@ -1,18 +1,40 @@
 <ion-header>
-  
-  <ion-navbar class="SS-Header_orangeBG">
-    <ion-title>CREATE A CALLOUT</ion-title>
+  <ion-navbar hideBackButton class="SS-Header_orangeBG">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2>
+          <div class="SS-side-menu-left"><ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon></div>
+        </ion-col>
+        <ion-col col-8>
+          <ion-title>
+            <p text-center>CREATE A CALL OUT</p>
+          </ion-title>
+        </ion-col>
+        <ion-col col-2>
+          <div class="SS-side-menu-right"><ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>    
   </ion-navbar>
-
+  <div class="SS-Header_orangeBG_sub">
+    <ion-tabs>
+      <ion-tab tabIcon="heart">text</ion-tab>
+      <ion-tab tabIcon="star">text</ion-tab>
+    </ion-tabs>
+  </div>
 </ion-header>
-
-
 <ion-content class="SS-ion_cont">
-  <ion-list class="SS-ion_list">
-    <button ion-button class="SS-ButtonTheme" block (click)="goToNextPage()">
-			<p>create a callout</p>
-<!-- 			<ion-icon name="ios-key-outline" item-end></ion-icon>
- -->		</button>
+  <ion-list padding>
+    <ion-item>
+      <ion-input placeholder="Edison" clearInput></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-textarea placeholder="Mobile Application"></ion-textarea>
+    </ion-item>
   </ion-list>
-
 </ion-content>
+<ion-footer class="SS-ion-footer">
+  <ion-toolbar>
+    <button ion-button block (click)="goToNext()"><p text-left>Next</p> <ion-icon float-right ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon></button>
+  </ion-toolbar>
+</ion-footer>

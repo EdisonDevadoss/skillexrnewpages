@@ -9,7 +9,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 })
 export class MyApp {
   
-   //rootPage:string = 'SideMenuContPage';
+  //rootPage:string = 'SkillexrProfileEditPage';
   rootPage:string = 'SkillexrIndexPage';
   //rootPage:any = HomePage;
 

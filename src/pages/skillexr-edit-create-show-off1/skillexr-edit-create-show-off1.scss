@@ -1,3 +1,59 @@
 page-skillexr-edit-create-show-off1 {
-
+    .toolbar-background-md {
+	    border-color: transparent; 
+	    background: transparent;
+	}
+	.header-md::after{
+		background-image:none;
+	}
+	.SS-Header_orangeBG{
+		background: #d05121;
+    	border-bottom: 3px solid #25394d;
+	}
+	.SS-Header_orangeBG p {
+	    color: #fff;
+	    font-weight: 700;
+		margin-left: 35px;
+	}
+	.SS-ion_cont{
+		background:#d7d7d7;	
+	}
+	.SS-side-menu {
+		background: #d05121;
+		color: #fff;
+		height: 55px;
+		width: 60px;
+		float: left;
+		padding: 20px;
+		font-size: 20px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.SS-ion_cont ion-item {
+	    background: transparent;
+	    margin-bottom: 10px;
+	    border: 1px dashed #000;
+		padding-left: 6px !important;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.list-md .item-input:last-child {
+	    border-bottom: 1px dashed #000 !important;
+	    height: 100px;
+	}
+	.footer-md::before{
+		background-image:none !important;
+	}
+	.SS-ion-footer {
+	    padding: 10px 16px;
+	}
+	.SS-ion-footer button {
+	    height: 50px;
+	    border-radius: 0px;
+	    background: #223242;
+	    letter-spacing: 1px;
+	    font-size: 16px;
+	    font-weight: 700;
+	}
 }

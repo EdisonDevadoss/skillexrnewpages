@@ -18,7 +18,7 @@ export class SkillexrProfileEditPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
   goToNext(){
-    this.navCtrl.push('SkillexrProfileCalloutPage');
+    this.navCtrl.push('SkillexrBadgeReviewsPage');
   }
   goToBlockPage(){
     this.navCtrl.push('SkillexrBlockReportPage');
@@ -28,6 +28,18 @@ export class SkillexrProfileEditPage {
   }
   goToMobileVerification(){
     this.navCtrl.push('SkillexrMobileNoVerificationPage');
+  }
+  goToAboutPage(){
+    this.navCtrl.push('SkillexrAboutPage');
+  }
+  goTolistofSkills(){
+    this.navCtrl.push('SkillexrListofSkillsPage')
+  }
+  goToContactPage(){
+    this.navCtrl.push('SkillexrContactPage');
+  }
+  goToLocation(){
+    this.navCtrl.push('SkillexrGoogleLocationPage');
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad SkillexrProfileEditPage');

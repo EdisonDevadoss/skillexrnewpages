@@ -1,3 +1,52 @@
 page-skillexr-edit-show-off1 {
+    .toolbar-background-md {
+	    border-color: transparent; 
+        background: transparent;
+	}
+	.toolbar-md{
+        padding:0px !important;
+        color: #ffffff;
+        font-size: 18px;
+	}
+	.header-md::after{
+		background-image:none;
+	}
+	.SS-Header_orangeBG{
+		background: #d05121;
+    	border-bottom: 3px solid #25394d;
+    	padding: 0px;
+	}
+	.SS-Header_orangeBG img {
+	    width: 30%;
+	    margin-top: 5px;
+	}
+    ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, light);
+    }
 
+    .SS-side-menu {
+		background: #25394d;
+		color: #fff;
+		height: 55px;
+		width: 60px;
+		float: right;
+		padding: 8px 18px;
+		font-size: 32px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+    .SS-segment {
+	    background: #25394d;
+	    color: #fff;
+	    height: 60px;
+	}
+	ion-segment.SS-segment.segment-md .segment-button.segment-activated {
+	    color: #fff;
+	    border-color: #d05121;
+	}
+	.segment-md .segment-button{
+		color: #fff;
+	}
+	
 }

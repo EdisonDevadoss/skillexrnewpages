@@ -1,4 +1,4 @@
-page-skillexr-profile-edit {
+page-skillexr-badge-reviews {
     .toolbar-background-md {
 	    border-color: transparent; 
 	    background: transparent;
@@ -60,48 +60,38 @@ page-skillexr-profile-edit {
 	.SS-segment.segment-md .segment-button.segment-activated {
 	    border-bottom: 5px solid #d05121 !important;
 	}
-
-	//Edison's
-	.SS-ion_cont h4 {
+	.SS-badge-icons ion-icon {
+	    padding: 10px 13px;
+	    background: #25394d;
+	    border-radius: 50%;
+	    font-size: 22px;
+	    color: #fff;
+	    margin: 10px 5px;
+	}
+	.SS-badge-icons {
 	    text-align: center;
-	    color: #25394d;
-	    font-size: 15px;
-	    margin: 5px;
 	}
-	.SS-ion_cont h4 ion-icon{
-		width:30px;
-		height:30px;
-		line-height:30px;
-		//border: 2px solid #f5f5f5;
-		border-radius: 50%;
-		color:#f5f5f5;
-		// text-align:center;
-		text-decoration:none;
-		background: #25394d;
-		// box-shadow: 0 0 3px gray;
-	}
-
 	.SS-rating h3 {
-		padding-top: 40px;
-		border-radius: 50%;
-		border: 3px solid #bfbfbf;
-		width: 100px;
-		height: 100px;
-		font-size: 18px;
+	    padding-top: 40px;
+	    border-radius: 50%;
+	    border: 3px solid #bfbfbf;
+	    width: 100px;
+	    height: 100px;
+	    font-size: 18px;
 	}
 	footer-md::before{
 		background-image:none !important;
 	}
 	.SS-ion-footer {
-		padding: 10px 16px;
+	    padding: 10px 16px;
 	}
 	.SS-ion-footer button {
-		height: 50px;
-		border-radius: 0px;
-		background: #223242;
-		letter-spacing: 1px;
-		font-size: 16px;
-		font-weight: 700;
+	    height: 50px;
+	    border-radius: 0px;
+	    background: #223242;
+	    letter-spacing: 1px;
+	    font-size: 16px;
+	    font-weight: 700;
 	}
 	p.SS-para {
 	   width: 100%; 
@@ -112,7 +102,7 @@ page-skillexr-profile-edit {
 	} 
 
 	p.SS-para span { 
-		background:#d7d7d7; 
-		padding:0 10px 0 15px; 
+	    background:#d7d7d7; 
+	    padding:0 10px 0 15px; 
 	}
 }

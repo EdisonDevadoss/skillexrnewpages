@@ -1,19 +1,23 @@
 <ion-header>
-    
-    <ion-navbar class="SS-Header_orangeBG">
-      <ion-title>SHOW OFF</ion-title>
-    </ion-navbar>
-  
-  </ion-header>
-  
-  
-  <ion-content class="SS-ion_cont">
-  <ion-list class="SS-ion_list">
-    <button ion-button class="SS-ButtonTheme" block (click)="goToEditCreateShowOff2()">
-        <p>Create Show off</p>
-      <!-- 			<ion-icon name="ios-key-outline" item-end></ion-icon>
-      -->		</button>
-
+  <ion-navbar class="SS-Header_orangeBG">
+    <div class="SS-side-menu"><ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon></div>
+      <ion-title>
+        <p>CREATE SHOW OFF</p>
+      </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="SS-ion_cont">
+  <ion-list padding>
+    <ion-item>
+      <ion-input placeholder="Title" clearInput></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-textarea placeholder="Description"></ion-textarea>
+    </ion-item>
   </ion-list>
-  
-  </ion-content>
+</ion-content>
+<ion-footer class="SS-ion-footer">
+  <ion-toolbar>
+    <button ion-button block (click)="goToEditAlbum()">Done</button>
+  </ion-toolbar>
+</ion-footer>
